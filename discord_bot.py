@@ -8,10 +8,10 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 
-@bot.command(name='spotify')
+@bot.command(name='')
 async def bot_command(ctx):
     
-    await ctx.send('https://open.spotify.com/user/dorukozkurt')
+    await ctx.send('')
 
 async def on_message(message):
     if message.author == bot.user:
