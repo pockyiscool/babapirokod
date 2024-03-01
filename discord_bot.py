@@ -97,9 +97,26 @@ async def on_message(message):
         await message.channel.send('eğlenceli birşey')
     if message.content.startswith('şimdi sen ne işe yarıyon'):
         await message.channel.send('hiçbi işe yaramıyom 💀')
-    if message.content.startswith('yarrak'):
-        await message.channel.send('https://tenor.com/tr/view/ohaçet-ne-diyor-gif-19560703')
-
+    if message.content.startswith('!LoL quiz'):
+        await message.channel.send('(Not:cevapları 1. gibi yazın)Soru 1.Yonenin kardeşi kimdir? A:Rammus B:Gengar C:Yasou D:Aatrox')
+    if message.content.startswith('1.C'):
+        await message.channel.send('Doğru! Soru 2 LoL hangi yıl çıktı? A:2009 B:2010 C:2011')
+    if message.content.startswith('2.A'):
+        await message.channel.send('Doğru! Son soru LoLdeki Anivia,Braum,Gagas,Nunu ve Tryndamere hangi tribedan? A:Frostguard B:Avarosan C:Winters Claw')
+    if message.content.startswith('3.B'):
+        await message.channel.send('Doğru! sınav bitti')
+    if message.content.startswith('3.A'):
+        await message.channel.send('Yanlış! sınav bitti')
+    if message.content.startswith('3.C'):
+        await message.channel.send('Yanlış! sınav bitti')
+    if message.content.startswith('1.A'):
+        await message.channel.send('Yanlış! sınav bitti')
+    if message.content.startswith('1.B'):
+        await message.channel.send('Yanlış! sınav bitti')
+    if message.content.startswith('2.B'):
+        await message.channel.send('Yanlış! sınav bitti')
+    if message.content.startswith('2.C'):
+        await message.channel.send('Yanlış! sınav bitti')
     
 
 
